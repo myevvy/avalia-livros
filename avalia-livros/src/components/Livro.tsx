@@ -1,9 +1,11 @@
 // Esse interface define as propriedades que o componente "Livro" recebe. O título, autor e a avaliação são obrigatórios, enquanto a descrição é opcional.
 
-interface LivroProps {
+export interface LivroProps {
   imagem?: string
   titulo: string
   autor: string
+  genero?: string
+  ano?: number
   avaliacao: number
   descricao?: string
 } 
@@ -24,3 +26,4 @@ export function Livro({ imagem, titulo, autor, avaliacao, descricao }: LivroProp
   )
 }
  
+export default Livro

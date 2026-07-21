@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { Livro } from '../components/Livro'
-import { Header } from './Header'
 import { api } from '../services/api'
 
 // importar o componente "Livro", o componente de pesquisa e a instância do axios configurada.
@@ -16,11 +15,10 @@ interface LivroData {
   imagem?: string
 }
 
-export default function Home() {
+export default function Home({ query = '' }: { query?: string }) {
   const [livros, setLivros] = useState<LivroData[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
-  const [query, setQuery] = useState('')
 
   useEffect(() => {
     async function carregarLivros() {
@@ -50,7 +48,6 @@ export default function Home() {
 
   return (
     <main className="home-page">
-      <Header query={query} onQueryChange={setQuery} />
 
       {loading ? (
         <p>Carregando livros...</p>
@@ -60,6 +57,7 @@ export default function Home() {
         <p>Nenhum livro encontrado.</p>
       ) : (
         <section className="livros-lista">
+
           {livrosFiltrados.map((livro) => (
             <Livro
               key={livro.id}

@@ -8,11 +8,11 @@ type PesquisaProps = {
 export function Pesquisa({ query, onQueryChange }: PesquisaProps) {
   return (
     <input
-      type="text"
-      value={query}
-      onChange={(event) => onQueryChange(event.target.value)}
-      placeholder="Pesquise o Livro pelo título ou autor"
-      className="input-pesquisa"
+      type="text" //tipo que define o campo de entrada como texto
+      value={query} // valor do campo de entrada é controlado pelo estado "query"
+      onChange={(event) => onQueryChange(event.target.value)} 
+      placeholder="&#128269;Pesquise o livro"
+      className="p-2 w-fit border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
     />
   )
 }

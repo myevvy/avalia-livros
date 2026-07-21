@@ -3,6 +3,7 @@
         "id": 1,
         "titulo": "Dom Casmurro",
         "autor": "Machado de Assis",
+        "genero": "Romance",
         "avaliacao": 4.5,
         "descricao": "Um clássico da literatura brasileira sobre memória, ciúme e dúvida.",
         "imagem": "https://s3.static.brasilescola.uol.com.br/be/2021/06/capa-do-livro-dom-casmurro.jpg"
@@ -11,6 +12,7 @@
         "id": 2,
         "titulo": "O Pequeno Príncipe",
         "autor": "Antoine de Saint-Exupéry",
+        "genero": "Infantil",
         "avaliacao": 4.8,
         "descricao": "Uma fábula poética sobre amizade, amor e sentido da vida.",
         "imagem": "https://placehold.co/320x180?text=O+Pequeno+Pr%C3%ADncipe"
@@ -19,6 +21,7 @@
         "id": 3,
         "titulo": "A Hora da Estrela",
         "autor": "Clarice Lispector",
+        "genero": "Romance",
         "avaliacao": 4.6,
         "descricao": "A narrativa intensa de uma jovem nordestina tentando sobreviver em São Paulo.",
         "imagem": "https://placehold.co/320x180?text=A+Hora+da+Estrela"
@@ -27,6 +30,7 @@
         "id": 4,
         "titulo": "Grande Sertão: Veredas",
         "autor": "João Guimarães Rosa",
+        "genero": "Romance",
         "avaliacao": 4.7,
         "descricao": "Uma obra que mistura romance, filosofia e linguagem poética no sertão.",
         "imagem": "https://placehold.co/320x180?text=Grande+Sert%C3%A3o"
@@ -35,6 +39,7 @@
         "id": 5,
         "titulo": "Memórias Póstumas de Brás Cubas",
         "autor": "Machado de Assis",
+        "genero": "Romance",
         "avaliacao": 4.4,
         "descricao": "Um romance narrado por um defunto que revê sua vida com ironia.",
         "imagem": "https://placehold.co/320x180?text=Mem%C3%B3rias+P%C3%B3stumas"
@@ -43,6 +48,7 @@
         "id": 6,
         "titulo": "O Alquimista",
         "autor": "Paulo Coelho",
+        "genero": "Romance",
         "avaliacao": 4.3,
         "descricao": "Uma fábula sobre seguir seus sonhos e ouvir o coração.",
         "imagem": "https://placehold.co/320x180?text=O+Alquimista"
@@ -51,6 +57,7 @@
         "id": 7,
         "titulo": "1984",
         "autor": "George Orwell",
+        "genero": "Ficção Científica",
         "avaliacao": 4.6,
         "descricao": "Um romance distópico sobre vigilância, totalitarismo e liberdade.",
         "imagem": "https://placehold.co/320x180?text=1984"
@@ -59,6 +66,7 @@
         "id": 8,
         "titulo": "O Senhor dos Anéis",
         "autor": "J.R.R. Tolkien",
+        "genero": "Fantasia",
         "avaliacao": 4.9,
         "descricao": "Uma épica saga de fantasia sobre a luta entre o bem e o mal.",
         "imagem": "https://placehold.co/320x180?text=O+Senhor+dos+An%C3%A9is"
