@@ -1,11 +1,15 @@
-import { BrowserRouter } from "react-router-dom";
-export const Routes = () => {
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Dashboard } from "../pages";
+import { Login } from "../pages";
+
+export const AppRoutes = () => {
     return (
         <BrowserRouter>
-            <Route path="/" element={<App />} />
-            
-
-            </Route>
+            <Routes>
+                <Route path="/pagina-inicial" element={<Dashboard />} />
+                <Route path="*" element={<Navigate to="/pagina-inicial" />} />
+                <Route path="/entrar" element={<Login />} />
+            </Routes>
         </BrowserRouter>
-        )
+    )
 }
