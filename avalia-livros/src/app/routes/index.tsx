@@ -6,6 +6,7 @@ export const AppRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="/" element={<Navigate to="/pagina-inicial" />} />
                 <Route path="/pagina-inicial" element={<Dashboard />} />
                 <Route path="*" element={<Navigate to="/pagina-inicial" />} />
                 <Route path="/entrar" element={<Login />} />
